@@ -1,0 +1,49 @@
+{
+  "name": "am-agent-skills",
+  "version": "1.0.0",
+  "description": "Curated agent skills for Claude Code — PM, QA, Agile, Design, DevOps and more",
+  "type": "commonjs",
+  "bin": {
+    "am-agent-skills": "bin/am-agent-skills.js"
+  },
+  "scripts": {
+    "postinstall": "node scripts/install.js"
+  },
+  "files": [
+    "bin/",
+    "scripts/",
+    "skills/",
+    "install.sh",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "claude-code",
+    "agent-skills",
+    "ai-agents",
+    "claude",
+    "cursor",
+    "llm",
+    "skills",
+    "product-management",
+    "agile",
+    "scrum",
+    "kanban",
+    "brainstorming",
+    "qa",
+    "devops"
+  ],
+  "author": "Abhijit Misra",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thelightbringer/am-agent-skills.git"
+  },
+  "homepage": "https://github.com/thelightbringer/am-agent-skills#readme",
+  "bugs": {
+    "url": "https://github.com/thelightbringer/am-agent-skills/issues"
+  }
+}
